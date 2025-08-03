@@ -20,7 +20,7 @@ class WeatherViewModel : ObservableObject {
         
         let baseUrl = "https://api.weatherstack.com/current"
         
-        let api = "398b97020a5838a814d9cf8c5e08aa40"
+        let api = "--------------------------------"
         
         guard var components = URLComponents(string : baseUrl) else { return }
         components.queryItems = [
